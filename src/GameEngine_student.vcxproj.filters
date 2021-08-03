@@ -1,0 +1,1208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>GraphicsObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Wireframe.cpp">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_ColorByPosition.cpp">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_FlatTexture.cpp">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMan.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_TextureLight.cpp">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMan.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Sprite.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTGA.cpp">
+      <Filter>Texture\TGA</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMan.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureNode.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphcisObject_Box.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Circle.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="TriModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject_Tri.cpp">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect2D.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMan.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderNode.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMan.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageNode.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMan.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulStopWatch.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="AzulTime.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer_win32.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugOut.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSortBucket.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerMan.cpp">
+      <Filter>AzulTime</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>GameObject\GameObject2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2Collision.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2Distance.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Draw.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Math.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Settings.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Common\b2Timer.cpp">
+      <Filter>Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Body.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2Island.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2World.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Box2D\Rope\b2Rope.cpp">
+      <Filter>Box2D\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject2D.cpp">
+      <Filter>GameObject\GameObject2D</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsMan.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBird.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsFixture.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBird.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBird.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="AngryContactListener.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Lander.cpp">
+      <Filter>GameObject\Lander</Filter>
+    </ClCompile>
+    <ClCompile Include="Lander1.cpp">
+      <Filter>GameObject\Lander</Filter>
+    </ClCompile>
+    <ClCompile Include="Lander2.cpp">
+      <Filter>GameObject\Lander</Filter>
+    </ClCompile>
+    <ClCompile Include="Thruster.cpp">
+      <Filter>GameObject\Lander</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodTower.cpp">
+      <Filter>GameObject\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactAction.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Blast.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatLong.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatMedium.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatShort.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatform.cpp">
+      <Filter>GameObject\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatTiny.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodSquare.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodRect.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneRect.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneSquare.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StonePlatTiny.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StonePlatShort.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StonePlatMedium.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="StonePlatLong.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassSquare.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassRect.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassPlatTiny.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassPlatShort.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassPlatMedium.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassPlatLong.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallPig.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="MediumPig.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="BigPig.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sling.cpp">
+      <Filter>GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Slingshot.cpp">
+      <Filter>GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdLink.cpp">
+      <Filter>GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdQueue.cpp">
+      <Filter>GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower_1_1.cpp">
+      <Filter>GameObject\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower_1_9.cpp">
+      <Filter>GameObject\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsMaterial.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneMaterial.cpp">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassMaterial.cpp">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodMaterial.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="Seesaw.cpp">
+      <Filter>GameObject\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsJoint.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodCircle.cpp">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="FerrisWheel.cpp">
+      <Filter>GameObject\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEvent_DeleteJoint.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Block_Base.cpp">
+      <Filter>GameObject\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Pig_Base.cpp">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEvent_DeleteGameObject.cpp">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRayCastCallBack.cpp">
+      <Filter>Physics\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualizer.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaCut.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaFruit.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaSword.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaFruit_Bomb.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaFruit_Pig.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaLauncher.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerEvent_LaunchFruit.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoreboard.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaSwordCallback.cpp">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GraphicsObjects">
+      <UniqueIdentifier>{93a4850e-23b0-4751-919a-96abf0093cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{3159976d-7987-4883-a95f-6508fc51ad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9abb5a24-81e4-4f47-a978-4466abc83014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1a86f58b-730f-4ade-9ef5-a03955cc875d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\wireframe">
+      <UniqueIdentifier>{edb264bb-13cd-4b8d-b809-ab411085c148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\colorbyposition">
+      <UniqueIdentifier>{8235b035-db60-41a6-8f5e-1de62e225a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\flattexture">
+      <UniqueIdentifier>{e80262e2-0161-4071-b26e-d6bc78c8e0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{d1cdfaf2-940b-4c46-9007-5d89e201e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{15363e7a-295c-4bb1-920a-3bdaf0aa931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\textureLight">
+      <UniqueIdentifier>{afe14a77-dea2-4ef7-8fa4-f63c952c280f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{7dba583c-bcaf-425f-9e10-4d5717a93ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsObjects\sprite">
+      <UniqueIdentifier>{5d9a2ad9-1880-4d9f-821a-e1d2ce4371f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\TGA">
+      <UniqueIdentifier>{dacb1fc1-b34f-4bd5-aeb7-4312131d726f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8fce8581-cbf4-4032-aae7-6d5fb5877a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f9b3370b-9898-4201-9f5e-170bf279cea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Names">
+      <UniqueIdentifier>{09956f6d-f840-4aab-ba04-53f14e534213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{11a82bb0-489a-419a-b545-6b83a9433e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D">
+      <UniqueIdentifier>{4d97e827-2e0b-4c0a-82c8-f76dbcb3c2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Collision">
+      <UniqueIdentifier>{bf18c1e7-75b2-4ff6-bfb6-94ceacfbc45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Collision\Shapes">
+      <UniqueIdentifier>{6e07fc16-bd89-448f-8f8b-c9de9931a801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Common">
+      <UniqueIdentifier>{7796e383-253a-4b4e-bbd5-669412185710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics">
+      <UniqueIdentifier>{f76c8cc6-ac0c-4a1c-9154-2ad060f16406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{d0d34b12-7449-4a5f-867c-0cca35630047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{239eabd0-fd87-466a-b56f-baf99c6a89f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Box2D\Rope">
+      <UniqueIdentifier>{040d0a87-4102-4e61-ac1b-4a3c748e053b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Diagrams">
+      <UniqueIdentifier>{e68b80e9-bc02-41f2-aba9-e0ebc29c4401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemTracker">
+      <UniqueIdentifier>{7ce6bee4-3fbc-4ba5-b4b2-1ba0261811f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AzulTime">
+      <UniqueIdentifier>{1f9f9fb1-fc42-402c-a423-a551f7de14d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameObject2D">
+      <UniqueIdentifier>{d655b14e-0006-4a04-b0e1-c93d64cc7d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{d1c03801-30fb-4eb1-a229-0aa8be58ef0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Blocks">
+      <UniqueIdentifier>{ccc17608-9812-4021-90a7-e45d2235fedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Lander">
+      <UniqueIdentifier>{b9127f46-477c-464a-9834-e68c0f74f1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Towers">
+      <UniqueIdentifier>{1c272cf9-e493-45db-844e-ef4de01fe616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\BirdsPigs">
+      <UniqueIdentifier>{7c55ceb8-2074-4909-879d-ae98c4aa067a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Effects">
+      <UniqueIdentifier>{556c5847-e3a8-4e05-837c-796c81b0ed2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Blocks\Wood">
+      <UniqueIdentifier>{1d69fd91-348e-4bf7-bcc9-0741f4cb8081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Blocks\Stone">
+      <UniqueIdentifier>{154dcc47-0bc9-4169-b140-024bd637fb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Blocks\Glass">
+      <UniqueIdentifier>{d26d708e-60a3-4ca7-a5ba-92c31080d0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Other">
+      <UniqueIdentifier>{130ee001-878a-4a8d-93a9-32b3ce9bce15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AzulTime\TimerEvents">
+      <UniqueIdentifier>{e4055672-3339-4cbd-88a5-5e78362999ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\FruitNinja">
+      <UniqueIdentifier>{317b3303-12b3-4dd0-9bc5-06984648ecf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Callbacks">
+      <UniqueIdentifier>{b65056dc-18a8-4f3c-88f2-b6379cda2793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>GraphicsObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Wireframe.h">
+      <Filter>GraphicsObjects\wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_ColorByPosition.h">
+      <Filter>GraphicsObjects\colorbyposition</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_FlatTexture.h">
+      <Filter>GraphicsObjects\flattexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMan.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_TextureLight.h">
+      <Filter>GraphicsObjects\textureLight</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMan.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Sprite.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTGA.h">
+      <Filter>Texture\TGA</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMan.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureNode.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulHelper.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySetup.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOut.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteVBO.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Box.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Circle.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="TriModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject_Tri.h">
+      <Filter>GraphicsObjects\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2D.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMan.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderNode.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMan.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageNode.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMan.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulStopWatch.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulTime.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelToMeter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumBase.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureName.h">
+      <Filter>Game\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSortBucket.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEvent.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerMan.h">
+      <Filter>AzulTime</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>GameObject\GameObject2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2BroadPhase.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2Collision.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2Distance.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2DynamicTree.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2BlockAllocator.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Draw.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2GrowableStack.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Math.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Settings.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2StackAllocator.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Common\b2Timer.h">
+      <Filter>Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Body.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Fixture.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2Island.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2World.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Rope\b2Rope.h">
+      <Filter>Box2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Box2D\Box2D.h">
+      <Filter>Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\Framework.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\ProjectSettings.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject2D.h">
+      <Filter>GameObject\GameObject2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMan.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBird.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsFixture.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBird.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBird.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="AngryContactListener.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Thruster.h">
+      <Filter>GameObject\Lander</Filter>
+    </ClInclude>
+    <ClInclude Include="Lander.h">
+      <Filter>GameObject\Lander</Filter>
+    </ClInclude>
+    <ClInclude Include="Lander1.h">
+      <Filter>GameObject\Lander</Filter>
+    </ClInclude>
+    <ClInclude Include="Lander2.h">
+      <Filter>GameObject\Lander</Filter>
+    </ClInclude>
+    <ClInclude Include="BlocksHeader.h">
+      <Filter>GameObject\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="TowersHeader.h">
+      <Filter>GameObject\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodTower.h">
+      <Filter>GameObject\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactAction.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Blast.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatLong.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatMedium.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatShort.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatform.h">
+      <Filter>GameObject\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatTiny.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodSquare.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodRect.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneRect.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneSquare.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="StonePlatTiny.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="StonePlatShort.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="StonePlatMedium.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="StonePlatLong.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassSquare.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassRect.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassPlatTiny.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassPlatShort.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassPlatMedium.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassPlatLong.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallPig.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="MediumPig.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="BigPig.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdsPigsHeader.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="Sling.h">
+      <Filter>GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Slingshot.h">
+      <Filter>GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdLink.h">
+      <Filter>GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdQueue.h">
+      <Filter>GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2DWrapper.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower_1_9.h">
+      <Filter>GameObject\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower_1_1.h">
+      <Filter>GameObject\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMaterial.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneMaterial.h">
+      <Filter>GameObject\Blocks\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassMaterial.h">
+      <Filter>GameObject\Blocks\Glass</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodMaterial.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="Seesaw.h">
+      <Filter>GameObject\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsJoint.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodCircle.h">
+      <Filter>GameObject\Blocks\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="FerrisWheel.h">
+      <Filter>GameObject\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEvent_DeleteJoint.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Block_Base.h">
+      <Filter>GameObject\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Pig_Base.h">
+      <Filter>GameObject\BirdsPigs</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEvent_DeleteGameObject.h">
+      <Filter>AzulTime\TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRayCastCallBack.h">
+      <Filter>Physics\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaSword.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaCut.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaFruit.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaHeader.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaFruit_Bomb.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaFruit_Pig.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaLauncher.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEvent_LaunchFruit.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaSwordCallback.h">
+      <Filter>GameObject\FruitNinja</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="colorRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="colorRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="textureRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="textureRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texturePointLightDiff.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texturePointLightDiff.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteLineRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteLineRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteTriRender.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="spriteTriRender.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GameObject.cd" />
+    <None Include="ClassDiagram.cd">
+      <Filter>Game\Diagrams</Filter>
+    </None>
+    <None Include="Box2D.cd">
+      <Filter>Physics</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
